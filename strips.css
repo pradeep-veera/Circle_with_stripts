@@ -1,0 +1,42 @@
+.circle {
+  margin: 200px 200px;
+  border-radius: 50%;
+  background: repeating-linear-gradient(-55deg, #506183, #7986a2 5px);
+  background-position: bottom right, bottom left;
+  width: 400px;
+  height: 400px;
+}
+.circle .content {
+  position: absolute;
+  top: 310px;
+  left: 330px;
+}
+.circle .content .white-line {
+  background: white;
+  height: 5px;
+  width: 100px;
+}
+.circle .content .white-line:before {
+  content: "";
+  display: inline;
+  width: 10px;
+  height: 5px;
+  background: white;
+}
+.circle .content .white-line .title {
+  color: bold;
+  font-style: italic;
+}
+.circle .content .blue-line {
+  background: #464f4e;
+  height: 5px;
+  width: 100px;
+}
+.semi-circle {
+  margin: 200px 300px;
+  background: grey;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 600px;
+  height: 100px;
+}
